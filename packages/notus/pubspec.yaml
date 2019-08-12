@@ -8,11 +8,10 @@ environment:
   sdk: '>=2.0.0-dev.58.0 <3.0.0'
 
 dependencies:
-  collection: ^1.14.6
-  meta: ^1.1.0
-  quill_delta: ^1.0.0-dev
+  collection: ^1.14.11
+  quill_delta: ^1.0.0
   quiver_hashcode: ^2.0.0
 
 dev_dependencies:
-  test: ^1.0.0
-  test_coverage: ^0.2.1
+  flutter_test:
+    sdk: flutter
